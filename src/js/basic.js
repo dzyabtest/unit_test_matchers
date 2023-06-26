@@ -5,3 +5,7 @@ export default function sum(items) {
   }
   return result;
 }
+
+export function matcher(chars) {
+  return chars.sort((prev, next) => next.health - prev.health);
+}

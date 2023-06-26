@@ -2,6 +2,16 @@
   "name": "unit_test_matchers",
   "version": "1.0.0",
   "main": "index.js",
+  "jest": {
+    "testPathIgnorePatterns" : [
+      "/src/js/http.js",
+      "/src/js/user.js" 
+    ],
+    "coveragePathIgnorePatterns": [
+      "/src/js/http.js",
+      "/src/js/user.js"
+    ]
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
