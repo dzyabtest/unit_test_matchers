@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/dhj9ca7ofp0ur4xr/branch/main?svg=true)](https://ci.appveyor.com/project/dzyabtest/unit-test-matchers/branch/main)
