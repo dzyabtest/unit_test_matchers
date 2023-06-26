@@ -1,13 +1,12 @@
 // TODO: write your code here
-import sum from './basic';
-import { matcher } from './basic';
+import sum, { matcher } from './basic';
 
 console.log('worked');
 
 console.log(sum([1, 2]));
 
 console.log(matcher([
-    {name: 'мечник', health: 10},
-    {name: 'маг', health: 100},
-    {name: 'лучник', health: 80},
-  ]));
+  { name: 'мечник', health: 10 },
+  { name: 'маг', health: 100 },
+  { name: 'лучник', health: 80 },
+]));
